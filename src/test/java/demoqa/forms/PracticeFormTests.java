@@ -26,7 +26,7 @@ public class PracticeFormTests extends TestBase {
                 //.chooseDate("4","May","1965")
                 .enterSubject(new String[]{"Maths", "English"})
                 .chooseHobbies(new String[]{"Sports", "Music"})
-                .uploadPicture("C:/Users/ovash/Desktop/сайт hr/4.png")
+                .uploadPicture("C:/Users/ovash/Desktop/сайт_hr/4.png")
                 .enterCurrentAddress("Portishead, Bristol, UK")
                 .enterState("NCR")
                 .enterCity("Delhi")
