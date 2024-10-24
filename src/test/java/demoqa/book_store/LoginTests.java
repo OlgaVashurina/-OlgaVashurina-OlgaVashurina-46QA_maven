@@ -11,7 +11,7 @@ public class LoginTests extends TestBase {
 
     @BeforeMethod
     public void precondition() {
-        app.driver.get("google.com");
+
         new HomePage(app.driver).getBookStore().hideAds();
         new SidePage(app.driver).selectLogin().hideAds();
     }
